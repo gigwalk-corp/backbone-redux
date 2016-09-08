@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfbb5b5e-3ee1-4413-990a-64495739a9a7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/.eslintrc" afterPath="$PROJECT_DIR$/test/.eslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/todomvc/.eslintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/action-fabric-test.js" afterPath="$PROJECT_DIR$/test/action-fabric-test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/collection-tools-test.js" afterPath="$PROJECT_DIR$/test/collection-tools-test.js" />
     </list>
     <ignored path="backbone-redux.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,41 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="collection-tools.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/collection-tools.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ear-fabric.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ear-fabric.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name=".eslintrc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.eslintrc">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-11.25">
               <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -89,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/test/action-fabric-test.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <caret line="34" column="10" selection-start-line="4" selection-start-column="2" selection-end-line="34" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -99,16 +69,46 @@
         <entry file="file://$PROJECT_DIR$/test/collection-tools-test.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+              <caret line="206" column="10" selection-start-line="6" selection-start-column="2" selection-end-line="206" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reducer-fabric-test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/reducer-fabric-test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reducer-tools-test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/reducer-tools-test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name=".eslintrc" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examples/todomvc/.eslintrc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.10468594">
+              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".eslintrc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/.eslintrc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15368852">
+            <state vertical-scroll-proportion="-6.25">
               <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
@@ -144,9 +144,9 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/reducer-fabric.js" />
         <option value="$PROJECT_DIR$/src/reducer-tools.js" />
+        <option value="$PROJECT_DIR$/test/.eslintrc" />
         <option value="$PROJECT_DIR$/test/action-fabric-test.js" />
         <option value="$PROJECT_DIR$/test/collection-tools-test.js" />
-        <option value="$PROJECT_DIR$/test/.eslintrc" />
       </list>
     </option>
   </component>
@@ -251,6 +251,10 @@
               <option name="myItemId" value="examples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todomvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -284,6 +288,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/eslint" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v5.7.1/bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/examples/todomvc" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -716,26 +725,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/action-fabric-test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.25">
           <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/collection-tools-test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -750,8 +743,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/.eslintrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15368852">
+        <state vertical-scroll-proportion="-6.25">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/action-fabric-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="10" selection-start-line="4" selection-start-column="2" selection-end-line="34" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/collection-tools-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="206" column="10" selection-start-line="6" selection-start-column="2" selection-end-line="206" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/reducer-fabric-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/reducer-tools-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/todomvc/.eslintrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10468594">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
           <folding />
         </state>
       </provider>
