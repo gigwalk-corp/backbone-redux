@@ -22,7 +22,7 @@
     "object-shorthand": 2,
     "consistent-return": 1,
     "no-param-reassign": 2,
-    "no-console": 2,
+    "no-console": 0,
     "indent": [2, 4, {"SwitchCase": 1}],
     "max-len": [2, 160, 4],
     "no-debugger": 2
