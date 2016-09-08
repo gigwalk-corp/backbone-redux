@@ -44,6 +44,11 @@ export function buildEars(collectionsMap, {dispatch}) {
   });
 }
 
+export function syncModels(modelsMap, store, extraReducers = {}) {
+    console.log('backbone-redux: syncModels', modelsMap, store);
+    store.replaceReducer(combineReducers({...extraReducers}));
+}
+
 export function syncCollections(collectionsMap, store, extraReducers = {}) {
   console.log('backbone-redux: syncCollections', collectionsMap, store);
   const reducers = buildReducers(collectionsMap);
