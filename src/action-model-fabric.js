@@ -1,18 +1,16 @@
 export default function({CHANGE, RESET}) {
     return {
-        change(model, modelName) {
+        change(model) {
             return {
                 type: CHANGE,
-                data: model.toJSON(),
-                key: modelName
+                data: model.toJSON()
             };
         },
 
-        reset(model, modelName) {
+        reset(model) {
             return {
                 type: RESET,
-                data: model.toJSON(),
-                key: modelName
+                data: model.toJSON()
             };
         }
     };

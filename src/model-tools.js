@@ -15,7 +15,8 @@ function buildConstants(modelName) {
 
 export function buildModelReducers(modelsMap) {
     return Object.keys(modelsMap).reduce((collector, modelName) => {
-        collector[modelName] = reducerModelFabric(buildConstants(modelName), modelName);
+        const modelNameWithPrefix = `models_${modelName}`;
+        collector[modelNameWithPrefix] = reducerModelFabric(buildConstants(modelName));
         console.log('buildModelReducers', collector, modelName);
         return collector;
     }, {});
