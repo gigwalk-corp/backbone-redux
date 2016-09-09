@@ -29,7 +29,7 @@ function createHandlersWithActions(rawActions, dispatch) {
 
     return {
         initialSync: initialSync.bind(this, actions),
-        handleChange: handleChange.bind(this, actions),
+        handleChange: handleChange.bind(this, actions)
     };
 }
 
@@ -46,5 +46,6 @@ export default function(model, rawActions, dispatch) {
 
     handlers.initialSync(model);
 
+    model.off('change');
     model.on('change', handlers.handleChange);
 }
