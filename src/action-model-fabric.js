@@ -1,4 +1,4 @@
-export default function({CHANGE, RESET}) {
+export default function({CHANGE}) {
     return {
         change(model) {
             return {
