@@ -41,7 +41,7 @@ export function buildModelReducers(modelsMap) {
         const indexMap = getIndex(modelsMap[modelName].indexes_map);
         console.log(collector, modelName, indexMap);
         // collector[collectionName] = reducerFabric(buildConstants(collectionName), indexMap);
-        // return collector;
+        return collector;
     }, {});
 }
 
@@ -55,6 +55,7 @@ export function buildEars(collectionsMap, {dispatch}) {
 
 export function syncModels(modelsMap, store, extraReducers = {}) {
     console.log('backbone-redux: syncModels', modelsMap, store);
+    const reducers = buildModelReducers(modelsMap);
     store.replaceReducer(combineReducers({...extraReducers}));
 }
 
