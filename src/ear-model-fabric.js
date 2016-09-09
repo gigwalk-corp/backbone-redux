@@ -58,5 +58,5 @@ export default function(model, rawActions, dispatch) {
     handlers.initialSync(model);
 
     model.on('change', handlers.handleChange);
-    model.on('reset', handlers.handleReset);
+    model.on('reset', handlers.handleReset.bind(model));
 }

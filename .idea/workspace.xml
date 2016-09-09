@@ -56,8 +56,8 @@
       <file leaf-file-name="ear-model-fabric.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ear-model-fabric.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.014605648">
-              <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.87633884">
+              <caret line="60" column="56" selection-start-line="60" selection-start-column="56" selection-end-line="60" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -665,7 +665,7 @@
         <state vertical-scroll-proportion="0.76380366">
           <caret line="77" column="0" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="25" />
           <folding>
-            <marker date="1473459047000" expanded="true" signature="2438:2443" placeholder="/*...*/" />
+            <marker date="1473459631000" expanded="true" signature="2438:2443" placeholder="/*...*/" />
           </folding>
         </state>
       </provider>
@@ -762,8 +762,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ear-model-fabric.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.014605648">
-          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.87633884">
+          <caret line="60" column="56" selection-start-line="60" selection-start-column="56" selection-end-line="60" selection-end-column="56" />
           <folding />
         </state>
       </provider>
