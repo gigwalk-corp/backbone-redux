@@ -55,6 +55,6 @@ export default function(model, rawActions, dispatch) {
 
     handlers.initialSync(model);
 
-    model.off('change', handlers.handleChange);
-    model.on('change', handlers.handleChange);
+    model.off('change', null, this);
+    model.on('change', handlers.handleChange, this);
 }
