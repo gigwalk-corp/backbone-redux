@@ -6,6 +6,7 @@ import { bindActionCreators } from 'redux';
  * @param {Backbone.Model} model
  */
 function handleReset(actions, model) {
+    console.log('handleReset', actions, model);
     actions.reset(model);
 }
 
