@@ -1,5 +1,4 @@
 import { bindActionCreators } from 'redux';
-// import throttle from 'lodash.throttle';
 
 /**
  * @param {Object} actions
