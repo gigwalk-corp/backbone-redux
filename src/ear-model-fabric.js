@@ -9,6 +9,7 @@ function handleChange(actions, model) {
         console.trace('handleChange was called without a valid model');
         return;
     }
+    console.log(model.changedAttributes());
     actions.change(model);
 }
 
