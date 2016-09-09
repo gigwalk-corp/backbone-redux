@@ -5,7 +5,6 @@ import { bindActionCreators } from 'redux';
  * @param {Backbone.Model} model
  */
 function handleChange(actions, model) {
-    console.log('handleChange', model);
     actions.change(model);
 }
 
