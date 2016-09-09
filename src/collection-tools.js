@@ -36,6 +36,15 @@ export function buildReducers(collectionsMap) {
     }, {});
 }
 
+export function buildModelReducers(modelsMap) {
+    return Object.keys(modelsMap).reduce((collector, modelName) => {
+        const indexMap = getIndex(modelsMap[modelName].indexes_map);
+        console.log(collector, modelName, indexMap);
+        // collector[collectionName] = reducerFabric(buildConstants(collectionName), indexMap);
+        // return collector;
+    }, {});
+}
+
 export function buildEars(collectionsMap, {dispatch}) {
     Object.keys(collectionsMap).forEach(collectionName => {
         const serializer = getSerializer(collectionsMap[collectionName]);
