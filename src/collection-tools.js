@@ -1,5 +1,6 @@
 import actionFabric from './action-fabric';
 import reducerFabric from './reducer-fabric';
+// import reducerModelFabric from './reducer-model-fabric';
 import earFabric from './ear-fabric';
 
 import { combineReducers } from 'redux';
@@ -14,6 +15,17 @@ function buildConstants(collectionName) {
         RESET: `RESET_${uppercasedCollectionName}`
     };
 }
+
+// function buildModelsConstants(modelName) {
+//    const uppercasedModelName = modelName.toUpperCase();
+//
+//    return {
+//        ADD: `ADD_${uppercasedModelName}`,
+//        REMOVE: `REMOVE_${uppercasedModelName}`,
+//        CHANGE: `CHANGE_${uppercasedModelName}`,
+//        RESET: `RESET_${uppercasedModelName}`
+//    };
+// }
 
 function getIndex(indexesMap) {
     return indexesMap || {fields: {by_id: 'id'}};
@@ -36,14 +48,14 @@ export function buildReducers(collectionsMap) {
     }, {});
 }
 
-export function buildModelReducers(modelsMap) {
-    return Object.keys(modelsMap).reduce((collector, modelName) => {
-        const indexMap = getIndex(modelsMap[modelName].indexes_map);
-        console.log(collector, modelName, indexMap);
-        // collector[collectionName] = reducerFabric(buildConstants(collectionName), indexMap);
-        return collector;
-    }, {});
-}
+// export function buildModelReducers(modelsMap) {
+//    return Object.keys(modelsMap).reduce((collector, modelName) => {
+//        const indexMap = modelsMap[modelName].cid;
+//        console.log(collector, modelName, indexMap);
+//        collector[modelName] = reducerModelFabric(buildModelsConstants(modelName), indexMap);
+//        return collector;
+//    }, {});
+// }
 
 export function buildEars(collectionsMap, {dispatch}) {
     Object.keys(collectionsMap).forEach(collectionName => {
@@ -53,11 +65,11 @@ export function buildEars(collectionsMap, {dispatch}) {
     });
 }
 
-export function syncModels(modelsMap, store, extraReducers = {}) {
-    console.log('backbone-redux: syncModels', modelsMap, store);
-    const reducers = buildModelReducers(modelsMap);
-    store.replaceReducer(combineReducers({...reducers, ...extraReducers}));
-}
+// export function syncModels(modelsMap, store, extraReducers = {}) {
+//    console.log('backbone-redux: syncModels', modelsMap, store);
+//    const reducers = buildModelReducers(modelsMap);
+//    store.replaceReducer(combineReducers({...reducers, ...extraReducers}));
+// }
 
 export function syncCollections(collectionsMap, store, extraReducers = {}) {
     console.log('backbone-redux: syncCollections', collectionsMap, store);
