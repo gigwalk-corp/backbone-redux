@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfbb5b5e-3ee1-4413-990a-64495739a9a7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/action-model-fabric.js" afterPath="$PROJECT_DIR$/src/action-model-fabric.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ear-model-fabric.js" afterPath="$PROJECT_DIR$/src/ear-model-fabric.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model-tools.js" afterPath="$PROJECT_DIR$/src/model-tools.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducer-model-fabric.js" afterPath="$PROJECT_DIR$/src/reducer-model-fabric.js" />
     </list>
     <ignored path="backbone-redux.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="model-tools.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="model-tools.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/model-tools.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.3943525">
+              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -37,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/src/action-model-fabric.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -47,17 +50,17 @@
         <entry file="file://$PROJECT_DIR$/src/reducer-model-fabric.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+              <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ear-model-fabric.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ear-model-fabric.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ear-model-fabric.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16066213">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -96,11 +99,11 @@
         <option value="$PROJECT_DIR$/src/action-fabric.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/collection-tools.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/ear-model-fabric.js" />
         <option value="$PROJECT_DIR$/src/reducer-model-fabric.js" />
         <option value="$PROJECT_DIR$/src/action-model-fabric.js" />
         <option value="$PROJECT_DIR$/src/model-tools.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/ear-model-fabric.js" />
       </list>
     </option>
   </component>
@@ -665,7 +668,7 @@
         <state vertical-scroll-proportion="0.76380366">
           <caret line="77" column="0" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="25" />
           <folding>
-            <marker date="1473460142000" expanded="true" signature="2438:2443" placeholder="/*...*/" />
+            <marker date="1473460265000" expanded="true" signature="2438:2443" placeholder="/*...*/" />
           </folding>
         </state>
       </provider>
@@ -728,30 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model-tools.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/action-model-fabric.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducer-model-fabric.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.8888888">
@@ -762,8 +741,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ear-model-fabric.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16066213">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducer-model-fabric.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/action-model-fabric.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model-tools.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3943525">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
           <folding />
         </state>
       </provider>

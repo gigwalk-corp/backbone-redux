@@ -1,10 +1,7 @@
-export default function({CHANGE, RESET}) {
+export default function({CHANGE}) {
     return (state = {}, action) => {
         switch (action.type) {
             case CHANGE:
-                return {...state, ...action.data};
-
-            case RESET:
                 return {...state, ...action.data};
 
             default:

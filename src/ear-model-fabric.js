@@ -5,15 +5,6 @@ import { bindActionCreators } from 'redux';
  * @param {Object} actions
  * @param {Backbone.Model} model
  */
-function handleReset(actions, model) {
-    console.log('handleReset', actions, model);
-    actions.reset(model);
-}
-
-/**
- * @param {Object} actions
- * @param {Backbone.Model} model
- */
 function handleChange(actions, model) {
     console.log('handleChange', model);
     actions.change(model);
@@ -41,7 +32,6 @@ function createHandlersWithActions(rawActions, dispatch) {
     return {
         initialSync: initialSync.bind(this, actions),
         handleChange: handleChange.bind(this, actions),
-        handleReset: handleReset.bind(this, actions)
     };
 }
 
@@ -59,5 +49,4 @@ export default function(model, rawActions, dispatch) {
     handlers.initialSync(model);
 
     model.on('change', handlers.handleChange);
-    model.on('reset', handlers.handleReset.bind(model));
 }

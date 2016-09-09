@@ -8,8 +8,7 @@ function buildConstants(modelName) {
     const uppercasedModelName = modelName.toUpperCase();
 
     return {
-        CHANGE: `CHANGE_${uppercasedModelName}`,
-        RESET: `RESET_${uppercasedModelName}`
+        CHANGE: `CHANGE_${uppercasedModelName}`
     };
 }
 

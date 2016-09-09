@@ -5,13 +5,6 @@ export default function({CHANGE, RESET}) {
                 type: CHANGE,
                 data: model.toJSON()
             };
-        },
-
-        reset(model) {
-            return {
-                type: RESET,
-                data: model.toJSON()
-            };
         }
     };
 }
