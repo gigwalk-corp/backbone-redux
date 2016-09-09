@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfbb5b5e-3ee1-4413-990a-64495739a9a7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/action-model-fabric.js" afterPath="$PROJECT_DIR$/src/action-model-fabric.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/collection-tools.js" afterPath="$PROJECT_DIR$/src/collection-tools.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ear-model-fabric.js" afterPath="$PROJECT_DIR$/src/ear-model-fabric.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model-tools.js" afterPath="$PROJECT_DIR$/src/model-tools.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducer-model-fabric.js" afterPath="$PROJECT_DIR$/src/reducer-model-fabric.js" />
     </list>
     <ignored path="backbone-redux.iws" />
@@ -31,27 +27,27 @@
         <entry file="file://$PROJECT_DIR$/src/model-tools.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="34" selection-start-line="34" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reducer-model-fabric.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="reducer-model-fabric.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/reducer-model-fabric.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.24014778">
+              <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ear-model-fabric.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ear-model-fabric.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ear-model-fabric.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.81527096">
-              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -83,8 +79,8 @@
         <option value="$PROJECT_DIR$/src/action-model-fabric.js" />
         <option value="$PROJECT_DIR$/src/collection-tools.js" />
         <option value="$PROJECT_DIR$/src/model-tools.js" />
-        <option value="$PROJECT_DIR$/src/reducer-model-fabric.js" />
         <option value="$PROJECT_DIR$/src/ear-model-fabric.js" />
+        <option value="$PROJECT_DIR$/src/reducer-model-fabric.js" />
       </list>
     </option>
   </component>
@@ -649,7 +645,7 @@
         <state vertical-scroll-proportion="0.76380366">
           <caret line="77" column="0" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="25" />
           <folding>
-            <marker date="1473443853000" expanded="true" signature="2438:2443" placeholder="/*...*/" />
+            <marker date="1473454920000" expanded="true" signature="2438:2443" placeholder="/*...*/" />
           </folding>
         </state>
       </provider>
@@ -728,26 +724,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ear-model-fabric.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/model-tools.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="34" selection-start-line="34" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/reducer-model-fabric.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ear-model-fabric.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.81527096">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.24014778">
+          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
           <folding />
         </state>
       </provider>
