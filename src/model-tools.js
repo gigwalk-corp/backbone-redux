@@ -17,7 +17,6 @@ export function buildModelReducers(modelsMap) {
     return Object.keys(modelsMap).reduce((collector, modelName) => {
         const modelNameWithPrefix = `models_${modelName}`;
         collector[modelNameWithPrefix] = reducerModelFabric(buildConstants(modelName));
-        console.log('buildModelReducers', collector, modelName);
         return collector;
     }, {});
 }
@@ -26,14 +25,11 @@ export function buildModelEars(modelsMap, { dispatch }) {
     Object.keys(modelsMap).forEach(modelName => {
         const rawActions = actionModelFabric(buildConstants(modelName));
         earModelFabric(modelsMap[modelName], rawActions, dispatch);
-        console.log('buildModelEars', rawActions, modelName);
     });
 }
 
 export function syncModels(modelsMap, store, extraReducers = {}) {
-    console.log('backbone-redux: syncModels', modelsMap, store);
     const reducers = buildModelReducers(modelsMap);
-    console.log('syncModels', reducers);
     store.replaceReducer(combineReducers({...reducers, ...extraReducers}));
     buildModelEars(modelsMap, store);
 }

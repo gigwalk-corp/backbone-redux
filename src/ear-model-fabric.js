@@ -1,11 +1,11 @@
 import { bindActionCreators } from 'redux';
+//import throttle from 'lodash.throttle';
 
 /**
  * @param {Object} actions
  * @param {Backbone.Model} model
  */
 function handleReset(actions, model) {
-    console.log('handleReset', model);
     actions.reset(model);
 }
 
@@ -25,7 +25,6 @@ function handleChange(actions, model) {
  * @param {Backbone.Model[]} models
  */
 function initialSync(actions, model) {
-    console.log('handleChange', model);
     actions.change(model);
 }
 
@@ -54,8 +53,6 @@ function createHandlersWithActions(rawActions, dispatch) {
  * @param {Function} dispatch
  */
 export default function(model, rawActions, dispatch) {
-    console.log('ear-model-fabric', model, rawActions, dispatch);
-
     const handlers = createHandlersWithActions(rawActions, dispatch);
 
     handlers.initialSync(model);
