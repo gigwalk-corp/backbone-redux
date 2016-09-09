@@ -5,6 +5,10 @@ import { bindActionCreators } from 'redux';
  * @param {Backbone.Model} model
  */
 function handleChange(actions, model) {
+    if (!model) {
+        console.trace('handleChange was called without a valid model');
+        return;
+    }
     actions.change(model);
 }
 
@@ -15,6 +19,10 @@ function handleChange(actions, model) {
  * @param {Backbone.Model[]} models
  */
 function initialSync(actions, model) {
+    if (!model) {
+        console.trace('initialSync was called without a valid model');
+        return;
+    }
     actions.change(model);
 }
 
@@ -46,6 +54,6 @@ export default function(model, rawActions, dispatch) {
 
     handlers.initialSync(model);
 
-    model.off('change');
+    model.off('change', handlers.handleChange);
     model.on('change', handlers.handleChange);
 }
