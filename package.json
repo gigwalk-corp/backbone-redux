@@ -50,6 +50,7 @@
   },
   "dependencies": {
     "lodash.compact": "^3.0.0",
+    "lodash.defer": "^4.1.0",
     "lodash.flatten": "^3.0.2",
     "lodash.groupby": "^3.1.1",
     "redux": "^3.0.0"
