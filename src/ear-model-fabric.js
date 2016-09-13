@@ -6,7 +6,7 @@ import { bindActionCreators } from 'redux';
  */
 function handleChange(actions, model) {
     if (!model) {
-        console.trace('handleChange was called without a valid model');
+        console.log('handleChange was called without a valid model');
         return;
     }
     actions.change(model);
@@ -20,7 +20,7 @@ function handleChange(actions, model) {
  */
 function initialSync(actions, model) {
     if (!model) {
-        console.trace('initialSync was called without a valid model');
+        console.log('initialSync was called without a valid model');
         return;
     }
     actions.change(model);
