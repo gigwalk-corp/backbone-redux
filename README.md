@@ -57,7 +57,6 @@ Resulting tree will look like this:
 {
   modelA: {
     name: 'modelA'
-  }
   }{
   modelB: {
     name: 'modelB'

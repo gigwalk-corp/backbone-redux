@@ -87,16 +87,16 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor vertical-scroll-proportion="0.8221344">
-                <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
+              <first_editor vertical-scroll-proportion="0.7826087">
+                <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
                 <folding>
-                  <marker date="1473791967000" expanded="true" signature="1167:1377" placeholder="//..." />
-                  <marker date="1473791967000" expanded="true" signature="1322:1377" placeholder="//..." />
-                  <marker date="1473791967000" expanded="true" signature="2001:2041" placeholder="{...}" />
-                  <marker date="1473791967000" expanded="true" signature="2001:2079" placeholder="{...}" />
-                  <marker date="1473791967000" expanded="true" signature="2013:2037" placeholder="{...}" />
-                  <marker date="1473791967000" expanded="true" signature="2041:2079" placeholder="{...}" />
-                  <marker date="1473791967000" expanded="true" signature="2053:2077" placeholder="{...}" />
+                  <marker date="1473792010000" expanded="true" signature="1167:1377" placeholder="//..." />
+                  <marker date="1473792010000" expanded="true" signature="1322:1377" placeholder="//..." />
+                  <marker date="1473792010000" expanded="true" signature="2001:2075" placeholder="{...}" />
+                  <marker date="1473792010000" expanded="true" signature="2013:2033" placeholder="{...}" />
+                  <marker date="1473792010000" expanded="true" signature="2013:2037" placeholder="{...}" />
+                  <marker date="1473792010000" expanded="true" signature="2037:2075" placeholder="{...}" />
+                  <marker date="1473792010000" expanded="true" signature="2049:2073" placeholder="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -856,16 +856,16 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor vertical-scroll-proportion="0.8221344">
-            <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
+          <first_editor vertical-scroll-proportion="0.7826087">
+            <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
             <folding>
-              <marker date="1473791967000" expanded="true" signature="1167:1377" placeholder="//..." />
-              <marker date="1473791967000" expanded="true" signature="1322:1377" placeholder="//..." />
-              <marker date="1473791967000" expanded="true" signature="2001:2041" placeholder="{...}" />
-              <marker date="1473791967000" expanded="true" signature="2001:2079" placeholder="{...}" />
-              <marker date="1473791967000" expanded="true" signature="2013:2037" placeholder="{...}" />
-              <marker date="1473791967000" expanded="true" signature="2041:2079" placeholder="{...}" />
-              <marker date="1473791967000" expanded="true" signature="2053:2077" placeholder="{...}" />
+              <marker date="1473792010000" expanded="true" signature="1167:1377" placeholder="//..." />
+              <marker date="1473792010000" expanded="true" signature="1322:1377" placeholder="//..." />
+              <marker date="1473792010000" expanded="true" signature="2001:2075" placeholder="{...}" />
+              <marker date="1473792010000" expanded="true" signature="2013:2033" placeholder="{...}" />
+              <marker date="1473792010000" expanded="true" signature="2013:2037" placeholder="{...}" />
+              <marker date="1473792010000" expanded="true" signature="2037:2075" placeholder="{...}" />
+              <marker date="1473792010000" expanded="true" signature="2049:2073" placeholder="{...}" />
             </folding>
           </first_editor>
           <second_editor />
