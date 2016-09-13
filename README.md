@@ -1,4 +1,4 @@
-backbone-model-redux
+backbone-redux extension
 ===============
 
 Extension of [backbone-redux](https://github.com/redbooth/backbone-redux)
