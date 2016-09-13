@@ -7,7 +7,7 @@ import { bindActionCreators } from 'redux';
  * @param {Backbone.Model} model
  */
 function handleAdd(actions, model) {
-  actions.add(model);
+    actions.add(model);
 }
 
 /**
@@ -17,7 +17,7 @@ function handleAdd(actions, model) {
  * @param {Backbone.Model} model
  */
 function handleChange(actions, model) {
-  actions.merge(model);
+    actions.merge(model);
 }
 
 /**
@@ -27,7 +27,7 @@ function handleChange(actions, model) {
  * @param {Backbone.Model} model
  */
 function handleRemove(actions, model) {
-  actions.remove(model);
+    actions.remove(model);
 }
 
 /**
@@ -37,7 +37,7 @@ function handleRemove(actions, model) {
  * @param {Backbone.Collection} collection
  */
 function handleReset(actions, collection) {
-  actions.reset(collection.models);
+    actions.reset(collection.models);
 }
 
 /**
@@ -47,7 +47,7 @@ function handleReset(actions, collection) {
  * @param {Backbone.Model[]} models
  */
 function initialSync(actions, models) {
-  actions.add(models);
+    actions.add(models);
 }
 
 /**
@@ -57,15 +57,15 @@ function initialSync(actions, models) {
  * @return {Object}
  */
 function createHandlersWithActions(rawActions, dispatch) {
-  const actions = bindActionCreators(rawActions, dispatch);
+    const actions = bindActionCreators(rawActions, dispatch);
 
-  return {
-    initialSync: initialSync.bind(this, actions),
-    handleAdd: handleAdd.bind(this, actions),
-    handleChange: handleChange.bind(this, actions),
-    handleRemove: handleRemove.bind(this, actions),
-    handleReset: handleReset.bind(this, actions),
-  };
+    return {
+        initialSync: initialSync.bind(this, actions),
+        handleAdd: handleAdd.bind(this, actions),
+        handleChange: handleChange.bind(this, actions),
+        handleRemove: handleRemove.bind(this, actions),
+        handleReset: handleReset.bind(this, actions)
+    };
 }
 
 /**
@@ -77,12 +77,12 @@ function createHandlersWithActions(rawActions, dispatch) {
  * @param {Function} dispatch
  */
 export default function(collection, rawActions, dispatch) {
-  const handlers = createHandlersWithActions(rawActions, dispatch);
+    const handlers = createHandlersWithActions(rawActions, dispatch);
 
-  handlers.initialSync(collection.models || collection);
+    handlers.initialSync(collection.models || collection);
 
-  collection.on('add', handlers.handleAdd);
-  collection.on('change', handlers.handleChange);
-  collection.on('remove', handlers.handleRemove);
-  collection.on('reset', handlers.handleReset);
+    collection.on('add', handlers.handleAdd);
+    collection.on('change', handlers.handleChange);
+    collection.on('remove', handlers.handleRemove);
+    collection.on('reset', handlers.handleReset);
 }

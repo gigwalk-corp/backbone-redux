@@ -5,56 +5,57 @@ import earFabric from './ear-fabric';
 import { combineReducers } from 'redux';
 
 function buildConstants(collectionName) {
-  const uppercasedCollectionName = collectionName.toUpperCase();
+    const uppercasedCollectionName = collectionName.toUpperCase();
 
-  return {
-    ADD: `ADD_${uppercasedCollectionName}`,
-    REMOVE: `REMOVE_${uppercasedCollectionName}`,
-    MERGE: `MERGE_${uppercasedCollectionName}`,
-    RESET: `RESET_${uppercasedCollectionName}`,
-  };
+    return {
+        ADD: `ADD_${uppercasedCollectionName}`,
+        REMOVE: `REMOVE_${uppercasedCollectionName}`,
+        MERGE: `MERGE_${uppercasedCollectionName}`,
+        RESET: `RESET_${uppercasedCollectionName}`
+    };
 }
 
 function getIndex(indexesMap) {
-  return indexesMap || {fields: {by_id: 'id'}};
+    return indexesMap || {fields: {by_id: 'id'}};
 }
 
 function getSerializer({serializer}) {
-  const defaultSerializer = model => ({...model.toJSON(), __optimistic_id: model.cid});
-  return serializer || defaultSerializer;
+    const defaultSerializer = model => ({...model.toJSON(), __optimistic_id: model.cid});
+    return serializer || defaultSerializer;
 }
 
 function getCollection(collectionValue) {
-  return collectionValue.collection || collectionValue;
+    return collectionValue.collection || collectionValue;
 }
 
 export function buildReducers(collectionsMap) {
-  return Object.keys(collectionsMap).reduce((collector, collectionName) => {
-    const indexMap = getIndex(collectionsMap[collectionName].indexes_map);
-    collector[collectionName] = reducerFabric(buildConstants(collectionName), indexMap);
-    return collector;
-  }, {});
+    return Object.keys(collectionsMap).reduce((collector, collectionName) => {
+        const indexMap = getIndex(collectionsMap[collectionName].indexes_map);
+        collector[collectionName] = reducerFabric(buildConstants(collectionName), indexMap);
+        return collector;
+    }, {});
 }
 
 export function buildEars(collectionsMap, {dispatch}) {
-  Object.keys(collectionsMap).forEach(collectionName => {
-    const serializer = getSerializer(collectionsMap[collectionName]);
-    const rawActions = actionFabric(buildConstants(collectionName), serializer);
-    earFabric(getCollection(collectionsMap[collectionName]), rawActions, dispatch);
-  });
+    Object.keys(collectionsMap).forEach(collectionName => {
+        const serializer = getSerializer(collectionsMap[collectionName]);
+        const rawActions = actionFabric(buildConstants(collectionName), serializer);
+        earFabric(getCollection(collectionsMap[collectionName]), rawActions, dispatch);
+    });
 }
 
 export function syncCollections(collectionsMap, store, extraReducers = {}) {
-  const reducers = buildReducers(collectionsMap);
-  store.replaceReducer(combineReducers({...reducers, ...extraReducers}));
-  buildEars(collectionsMap, store);
+    console.log('backbone-redux: syncCollections', collectionsMap, store);
+    const reducers = buildReducers(collectionsMap);
+    store.replaceReducer(combineReducers({...reducers, ...extraReducers}));
+    buildEars(collectionsMap, store);
 }
 
 export function syncCollection() {
-  if (console && console.log) {
-    console.log('backbone-redux: syncCollection is deprecated, use syncCollections instead');
-  }
+    if (console && console.log) {
+        console.log('backbone-redux: syncCollection is deprecated, use syncCollections instead');
+    }
 
-  syncCollections.apply(this, arguments);
+    syncCollections.apply(this, arguments);
 }
 

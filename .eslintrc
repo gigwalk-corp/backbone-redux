@@ -6,11 +6,26 @@
     "node": true
   },
   "rules": {
-    "func-names": 0,
-    "id-length": 0,
-    "react/jsx-uses-react": 2,
-    "react/jsx-uses-vars": 2,
-    "react/react-in-jsx-scope": 2
+	"id-length": 0,
+	"react/jsx-uses-react": 2,
+	"react/jsx-uses-vars": 2,
+	"react/react-in-jsx-scope": 2,
+    "no-unused-expressions": 0,
+    "space-before-function-paren": [2, "never"],
+    "comma-dangle": 0,
+    "func-names": 2,
+    "no-var": 2,
+    "prefer-const": 2,
+    "spaced-comment": 2,
+    "new-cap": 2,
+    "guard-for-in": 1,
+    "object-shorthand": 2,
+    "consistent-return": 1,
+    "no-param-reassign": 2,
+    "no-console": 0,
+    "indent": [2, 4, {"SwitchCase": 1}],
+    "max-len": [2, 160, 4],
+    "no-debugger": 2
   },
   "plugins": [
     "react"

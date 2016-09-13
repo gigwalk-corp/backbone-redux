@@ -1,5 +1,5 @@
 {
-  "name": "backbone-redux",
+  "name": "@gigwalk/backbone-redux",
   "version": "0.2.0",
   "description": "Easy way to keep your backbone collections and redux store in sync",
   "main": "lib/index.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/redbooth/backbone-redux.git"
+    "url": "https://github.com/gigwalk/backbone-redux.git"
   },
   "keywords": [
     "backbone",
@@ -29,9 +29,9 @@
   "author": "Ilya Zayats <somebody32@gmail.com> (http://github.com/somebody32)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/redbooth/backbone-redux/issues"
+    "url": "https://github.com/gigwalk/backbone-redux/issues"
   },
-  "homepage": "https://github.com/redbooth/backbone-redux",
+  "homepage": "https://github.com/gigwalk/backbone-redux",
   "devDependencies": {
     "babel": "^5.5.8",
     "babel-core": "^5.6.18",
