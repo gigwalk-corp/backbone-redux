@@ -6,9 +6,9 @@ import { syncModels } from '../src/model-tools';
 test('Syncing models', t => {
   t.test('default values', t => {
     const Model = Backbone.Model.extend({
-        defaults: {
-            property: 'abc'
-        }
+      defaults: {
+        property: 'abc'
+      }
     });
     const model = new Model();
     const store = createStore(() => {});

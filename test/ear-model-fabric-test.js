@@ -5,7 +5,6 @@ import actionModelFabric from '../src/action-model-fabric';
 import Backbone from 'backbone';
 
 test('Testing listeners on model events', t => {
-
   t.test('with default state ano no index map', t => {
     const Model = Backbone.Model.extend({
       defaults: {
@@ -37,4 +36,3 @@ test('Testing listeners on model events', t => {
 
   t.end();
 });
-
