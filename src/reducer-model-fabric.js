@@ -1,8 +1,8 @@
-export default function({CHANGE}) {
+export default function({ CHANGE }) {
     return (state = {}, action) => {
         switch (action.type) {
             case CHANGE:
-                return {...state, ...action.data};
+                return { ...action.data };
 
             default:
                 return state;

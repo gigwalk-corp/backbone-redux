@@ -28,6 +28,6 @@ export function buildModelEars(modelsMap, { dispatch }) {
 
 export function syncModels(modelsMap, store, extraReducers = {}) {
     const reducers = buildModelReducers(modelsMap);
-    store.replaceReducer(combineReducers({...reducers, ...extraReducers}));
+    store.replaceReducer(combineReducers({ ...reducers, ...extraReducers }));
     buildModelEars(modelsMap, store);
 }

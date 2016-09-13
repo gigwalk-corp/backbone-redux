@@ -1,4 +1,4 @@
-export default function({CHANGE}) {
+export default function({ CHANGE }) {
     return {
         change(model) {
             return {
