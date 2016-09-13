@@ -87,14 +87,16 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor vertical-scroll-proportion="0.42687747">
-                <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+              <first_editor vertical-scroll-proportion="0.8221344">
+                <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
                 <folding>
-                  <marker date="1473791869000" expanded="true" signature="1167:1377" placeholder="//..." />
-                  <marker date="1473791869000" expanded="true" signature="1322:1377" placeholder="//..." />
-                  <marker date="1473791869000" expanded="true" signature="2011:2035" placeholder="{...}" />
-                  <marker date="1473791869000" expanded="true" signature="2035:2073" placeholder="{...}" />
-                  <marker date="1473791869000" expanded="true" signature="2047:2071" placeholder="{...}" />
+                  <marker date="1473791967000" expanded="true" signature="1167:1377" placeholder="//..." />
+                  <marker date="1473791967000" expanded="true" signature="1322:1377" placeholder="//..." />
+                  <marker date="1473791967000" expanded="true" signature="2001:2041" placeholder="{...}" />
+                  <marker date="1473791967000" expanded="true" signature="2001:2079" placeholder="{...}" />
+                  <marker date="1473791967000" expanded="true" signature="2013:2037" placeholder="{...}" />
+                  <marker date="1473791967000" expanded="true" signature="2041:2079" placeholder="{...}" />
+                  <marker date="1473791967000" expanded="true" signature="2053:2077" placeholder="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -854,14 +856,16 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor vertical-scroll-proportion="0.42687747">
-            <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+          <first_editor vertical-scroll-proportion="0.8221344">
+            <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
             <folding>
-              <marker date="1473791869000" expanded="true" signature="1167:1377" placeholder="//..." />
-              <marker date="1473791869000" expanded="true" signature="1322:1377" placeholder="//..." />
-              <marker date="1473791869000" expanded="true" signature="2011:2035" placeholder="{...}" />
-              <marker date="1473791869000" expanded="true" signature="2035:2073" placeholder="{...}" />
-              <marker date="1473791869000" expanded="true" signature="2047:2071" placeholder="{...}" />
+              <marker date="1473791967000" expanded="true" signature="1167:1377" placeholder="//..." />
+              <marker date="1473791967000" expanded="true" signature="1322:1377" placeholder="//..." />
+              <marker date="1473791967000" expanded="true" signature="2001:2041" placeholder="{...}" />
+              <marker date="1473791967000" expanded="true" signature="2001:2079" placeholder="{...}" />
+              <marker date="1473791967000" expanded="true" signature="2013:2037" placeholder="{...}" />
+              <marker date="1473791967000" expanded="true" signature="2041:2079" placeholder="{...}" />
+              <marker date="1473791967000" expanded="true" signature="2053:2077" placeholder="{...}" />
             </folding>
           </first_editor>
           <second_editor />

@@ -54,8 +54,10 @@ redux store.
 Resulting tree will look like this:
 
 ```javascript
+{
   modelA: {
     name: 'modelA'
+  }
   }{
   modelB: {
     name: 'modelB'
