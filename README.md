@@ -5,7 +5,7 @@ Extension of [backbone-redux](https://github.com/redbooth/backbone-redux)
 
 [![npm](https://img.shields.io/npm/v/backbone-redux.svg?style=flat-square)](https://www.npmjs.com/package/backbone-redux)
 [![npm](https://img.shields.io/npm/dm/backbone-redux.svg?style=flat-square)](https://www.npmjs.com/package/backbone-redux)
-[![Travis](https://img.shields.io/travis/redbooth/backbone-redux.svg?style=flat-square)](https://travis-ci.org/giwalk/backbone-redux)
+[![Travis](https://img.shields.io/travis/redbooth/backbone-redux.svg?style=flat-square)](https://travis-ci.org/gigwalk-corp/backbone-redux)
 
 ```
 npm install backbone-redux --save
