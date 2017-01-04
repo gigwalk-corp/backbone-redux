@@ -1,8 +1,9 @@
+import reduceReducers from 'reduce-reducers';
+import { combineReducers } from 'redux';
+
 import actionModelFabric from './action-model-fabric';
 import reducerModelFabric from './reducer-model-fabric';
 import earModelFabric from './ear-model-fabric';
-
-import { combineReducers } from 'redux';
 
 function buildConstants(modelName) {
     const uppercasedModelName = modelName.toUpperCase();
@@ -26,8 +27,8 @@ export function buildModelEars(modelsMap, { dispatch }) {
     });
 }
 
-export function syncModels(modelsMap, store, extraReducers = {}) {
+export function syncModels(modelsMap, store, allReducers = {}, extraReducers = []) {
     const reducers = buildModelReducers(modelsMap);
-    store.replaceReducer(combineReducers({ ...reducers, ...extraReducers }));
+    store.replaceReducer(reduceReducers(combineReducers({ ...reducers, ...allReducers }), ...extraReducers));
     buildModelEars(modelsMap, store);
 }
